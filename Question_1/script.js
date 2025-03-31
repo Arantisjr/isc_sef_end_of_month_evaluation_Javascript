@@ -14,12 +14,29 @@ The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. 
 `
 
 function countWords(text){
+    words = text.split();
+    words.length;
+
+    console.log(words);
 
 }
 
+//counting characters
+function countCharacters(text){
+numCharacters = text.length;
+console.log(numCharacters);
+}
 
 
+function countSpaces(){
+  
+    
+}
 
+
+countCharacters(text)
+
+countWords(text)
 
 
 
