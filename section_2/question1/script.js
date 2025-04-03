@@ -1,9 +1,14 @@
 function countVowels(str){
-    stringLowercase = str.toLowerCase()
-    count = 0;
-    for(i=0;i<str.length;i++){
-        if(str = ){
-
-        }
+  let count = 0;
+  let vowels = 'aeiouAEIOU';
+  for(let char of str){
+    if(vowels.includes(char)){
+        count++
     }
+  }
+
+  console.log(count);
+   
 }
+
+countVowels("javascript")
